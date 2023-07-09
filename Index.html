@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Assignment 1</title>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <section class="content">
+        <h2>Content</h2>
+        <div>
+        <h1>This data is from database:</h1>
+          <div id="databasecontainer"></div>
+
+          <div id="localcontainer"><h1>This data is from localstorage:</h1></div>
+        </div>
+      </section>
+
+      <section class="sidebar">
+        <h2>Database</h2>
+        <input
+          type="textarea"
+          id="database-input"
+          placeholder="saves into database"
+        />
+        <button id="datasave">Save</button>
+
+        <section class="localstorage">
+          <h2>Local storage</h2>
+          <input
+            type="textarea"
+            id="localstorage"
+            placeholder="saves into localstorages "
+          />
+          <button id="localsave">Save</button>
+        </section>
+      </section>
+    </main>    
+    <script src="firebase-config.js"></script>
+    <script src="Database.js"></script>
+    <script src="Localstorage.js"></script>
+  </body>
+</html>
