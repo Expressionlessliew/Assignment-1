@@ -1,0 +1,45 @@
+* {
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+  background-color: black;
+  margin: 0px;
+  padding: 0px;
+}
+
+#base{
+  margin-left: 23px;
+}
+
+#content{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 50px;
+  color: aqua;
+  margin-bottom: 10px;
+  margin-right: 50px;
+}
+
+#databasecontainer{
+  margin: 25px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+}
+
+#database3 {
+  font-size: 25px;
+  margin: 15px;
+}
+
+#database-input {
+  margin: 20px;
+  color: yellow;
+}
+
+#localstorage{
+  margin: 20px;
+  color: red;
+}
+
+#storage{
+  font-size: 25px;
+  margin: 15px;
+}

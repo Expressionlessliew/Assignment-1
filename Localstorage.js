@@ -15,7 +15,6 @@ saveLocalButton.addEventListener("click", (e) => {
   alert("Data saved to localStorage!");
 });
 
-
 // Retrieve data from localStorage
 const savedData = localStorage.getItem("data");
 
